@@ -19,3 +19,40 @@ body {
     flex-direction: column;
     min-height: 100dvh;
 }
+
+/* NAV BAR STYLES */
+@scope (.nav) {
+    & .nav__a {
+        padding: 10px;
+        color: var(--text-color);
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: color-mix(in srgb, var(--background-color) 100%, #fff 7%);
+        }
+        
+        & .nav__icon {
+            height: 32px;
+            width: 32px;
+        }
+        
+        & .nav__text {
+            margin-left: 10px;
+            text-transform: uppercase;
+        } 
+        
+    }
+
+    & picture { 
+        width: 32px;
+        height: 32px;
+        & img {
+            width: inherit;
+            height: inherit;
+            clip-path: circle();
+        }
+    }
+}
