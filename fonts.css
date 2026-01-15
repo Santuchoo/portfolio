@@ -1,0 +1,11 @@
+@font-face {
+    font-family: feather-bold;
+    src: url("fonts/Feather_Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: din-round;
+    src: url("fonts/dinroundpro_bold.otf");
+    font-weight: 700;
+}
