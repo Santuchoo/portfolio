@@ -1,0 +1,21 @@
+:root {
+    --background-color: #020f13;
+    --text-color: #ffffef;
+    --secondary-color: color-mix(in srgb, var(--background-color) 100%, #fff 50%);
+    --color-1: #00b7ff;
+    --color-2: #5db604;
+    --color-3: #ff3cbe;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100dvh;
+}
