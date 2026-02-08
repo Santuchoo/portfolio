@@ -18,10 +18,24 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
+    background-color: var(--background-color);
 }
 
 /* NAV BAR STYLES */
 @scope (.nav) {
+    & {
+        padding: 10px;
+        font-family: din-round;
+        max-width: 15rem;
+    }
+
+    & h1 {
+        color: var(--color-2);
+        font-family: feather-bold;
+        margin: 0 20px 17px 12px;
+        font-size: 2rem;
+    }
+
     & .nav__a {
         padding: 10px;
         color: var(--text-color);
