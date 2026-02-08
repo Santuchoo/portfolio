@@ -22,6 +22,10 @@ body {
 
 /* NAV BAR STYLES */
 @scope (.nav) {
+    .nav {
+        grid-area: "nav";
+    }
+    
     & .nav__a {
         padding: 10px;
         color: var(--text-color);
